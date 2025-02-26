@@ -1,0 +1,60 @@
+<library path="src">
+  <class name="M2-2" type="arm_package.m2_2_module.M2_motor2" base_class_type="rqt_gui_py::Plugin">
+    <description>
+     plugin to control the motor of muscle Unit 2
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>M2-1-motor-controller</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+  
+    <class name="M2-1" type="arm_package.m2_1_module.M2_motor1" base_class_type="rqt_gui_py::Plugin">
+    <description>
+     plugin to control the motor of muscle Unit 2
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>M2-2-motor-controller</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+  
+  <class name="M3" type="arm_package.m3_module.M3" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      An example Python GUI plugin to create a great user interface.
+    </description>
+    <qtgui>
+      <!-- optional grouping...
+      <group>
+        <label>Group</label>
+      </group>
+      <group>
+        <label>Subgroup</label>
+      </group>
+      -->
+      <label>M3-motor control</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class> 
+  
+  
+  </library>

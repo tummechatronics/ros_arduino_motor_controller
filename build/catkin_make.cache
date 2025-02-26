@@ -1,0 +1,2 @@
+arm_package
+-DCATKIN_DEVEL_PREFIX=/home/edgar/2_5D_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/edgar/2_5D_catkin_ws/install -G Unix Makefiles
